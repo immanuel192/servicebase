@@ -1,0 +1,39 @@
+{
+  "name": "servicebase",
+  "version": "1.0.0",
+  "description": "Microservices - Service Base",
+  "main": "index.js",
+  "typings": "./typings/servicebase/servicebase.d.ts",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "consul": "^0.25.0",
+    "continuation-local-storage": "^3.1.7",
+    "jsonic": "git+https://trungdang_apium@bitbucket.org/trungdang_apium/jsonic.git",
+    "lodash": ">2.4.0",
+    "loggly": "^1.1.0",
+    "node-uuid": "^1.4.7",
+    "pg": "^5.0.0",
+    "seneca": "^2.0.1",
+    "seneca-amqp-transport": "^0.2.2",
+    "sequelize": "^3.23.3",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt-cli": "^0.1.13",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  },
+  "engine": "node 6.0.0",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://trungdang_apium@bitbucket.org/trungdang_apium/microservices_servicebase.git"
+  },
+  "author": "Trung Dang (trungdt@absoft.vn)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/trungdang_apium/microservices_servicebase#readme"
+}
