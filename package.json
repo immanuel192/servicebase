@@ -1,6 +1,6 @@
 {
   "name": "servicebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to help build microservices application in nodejs, using RabbitMQ as transportation, Consult as Configuration Storage & Heath Check, Redis as caching",
   "main": "index.js",
   "typings": "./typings/servicebase/servicebase.d.ts",
