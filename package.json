@@ -1,7 +1,7 @@
 {
   "name": "servicebase",
   "version": "1.0.0",
-  "description": "Microservices - Service Base",
+  "description": "A package to help build microservices application in nodejs, using RabbitMQ as transportation, Consult as Configuration Storage & Heath Check, Redis as caching",
   "main": "index.js",
   "typings": "./typings/servicebase/servicebase.d.ts",
   "dependencies": {
@@ -25,15 +25,15 @@
     "sinon": "^1.17.2",
     "supertest": "^1.1.0"
   },
-  "engine": "node 6.0.0",
+  "engine": "node 4.3.0",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://trungdang_apium@bitbucket.org/trungdang_apium/microservices_servicebase.git"
+    "url": "git+https://github.com/immanuel192/servicebase.git"
   },
   "author": "Trung Dang (trungdt@absoft.vn)",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/trungdang_apium/microservices_servicebase#readme"
+  "homepage": "https://github.com/immanuel192/servicebase#readme"
 }
