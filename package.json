@@ -11,12 +11,12 @@
     "jsonic": "git+https://trungdang_apium@bitbucket.org/trungdang_apium/jsonic.git",
     "lodash": ">2.4.0",
     "loggly": "^1.1.0",
-    "node-uuid": "^1.4.7",
     "pg": "^5.0.0",
     "seneca": "^2.0.1",
     "seneca-amqp-transport": "^0.2.2",
     "sequelize": "^3.23.3",
-    "sqlite3": "^3.1.4"
+    "sqlite3": "^3.1.4",
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
