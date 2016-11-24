@@ -1,6 +1,6 @@
 'use strict';
 const _ = require('lodash')
-const uuid = require('node-uuid')
+const uuid = require('uuid')
 const assert = require('assert')
 let events = require('events')
 let TestClientReadyEmitter = new events.EventEmitter()
